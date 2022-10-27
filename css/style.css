@@ -3,6 +3,9 @@
     border: 1px solid black;
     margin: 0px auto;
 }
+body{
+    margin:0px;
+}
 #nav-bar{
     width: 100%;
     color:forestgreen;
@@ -11,3 +14,49 @@
 .clear{
     clear: both;
 }
+#nav-bar ul, #left-nav ul{
+    list-style-type:none;
+    padding: 0px;
+    margin:0px;
+    display:flex;
+    flex-direction: row;
+}
+#nav-bar a, #left-nav a{
+    text-decoration: none;
+    color:white;
+    background-color: forestgreen;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:25px 30px;
+    display: block;
+    text-align:center;
+}
+ #left-nav a{
+    text-decoration: none;
+    color:white;
+    background-color: forestgreen;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:5px 30px;
+    display: block;
+}
+#nav-bar a:hover, #left-nav a:hover{
+    color:black;
+    background-color: darkseagreen;
+}
+#nav-bar ul li{
+    width:25%;
+}
+#heading h1{
+
+    color:forestgreen;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 100;
+}
+#left-nav{
+    width:30% ;
+    float:left;
+}
+
