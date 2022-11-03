@@ -21,7 +21,7 @@ body{
     display:flex;
     flex-direction: row;
 }
-#nav-bar a, #left-nav a{
+#nav-bar a{
     text-decoration: none;
     color:white;
     background-color: forestgreen;
@@ -33,16 +33,22 @@ body{
 }
  #left-nav a{
     text-decoration: none;
-    color:white;
-    background-color: forestgreen;
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding:5px 30px;
-    display: block;
-}
-#nav-bar a:hover, #left-nav a:hover{
     color:black;
     background-color: darkseagreen;
+    font-size: 25px;
+    font-style: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:5px 30px;
+    border:1px solid forestgreen;
+    display: block;
+}
+#nav-bar a:hover{
+    color:black;
+    background-color: darkseagreen;
+}
+#left-nav a:hover{
+    color:white;
+    background-color: forestgreen;
 }
 #nav-bar ul li{
     width:25%;
